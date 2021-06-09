@@ -29,7 +29,7 @@ export default class AmazonLogoutModal {
       this.modal.show();
     });
 
-    // If user is on the read.amazon.com url, we can safely assume they are logged in
+    // If user is on the read.amazon.co.jp url, we can safely assume they are logged in
     this.modal.webContents.on('did-navigate', async (_event, url) => {
       if (url.contains('signin')) {
         this.modal.close();

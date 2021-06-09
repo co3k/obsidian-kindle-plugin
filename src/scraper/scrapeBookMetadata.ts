@@ -51,7 +51,7 @@ const parseIsbn = ($: Root): string | null => {
 
 const parseAuthorUrl = ($: Root): string | null => {
   const href = $('.contributorNameID').attr('href');
-  return `https://www.amazon.com${href}`;
+  return `https://www.amazon.co.jp${href}`;
 };
 
 export const parseBookMetadata = ($: Root): BookMetadata => {
@@ -66,7 +66,7 @@ export const parseBookMetadata = ($: Root): BookMetadata => {
 
 const scrapeBookMetadata = async (book: Book): Promise<BookMetadata> => {
   const dom = await loadRemoteDom(
-    `https://www.amazon.com/dp/${book.asin}`,
+    `https://www.amazon.co.jp/dp/${book.asin}`,
     1000
   );
 

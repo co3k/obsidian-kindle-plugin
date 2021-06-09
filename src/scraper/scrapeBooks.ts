@@ -16,7 +16,7 @@ export const parseBooks = ($: Root): Book[] => {
           .text()
           .replace(/^(By: )/, '')
           ?.trim(),
-        url: `https://www.amazon.com/dp/${$(bookEl).attr('id')}`,
+        url: `https://www.amazon.co.jp/dp/${$(bookEl).attr('id')}`,
         imageUrl: $('.kp-notebook-cover-image', bookEl).attr('src') as string,
         lastAccessedDate: $('[id^="kp-notebook-annotated-date"]', bookEl).val(),
       };

@@ -134,4 +134,4 @@ If you like this plugin and would like to buy me a coffee, you can!
 [1]: https://obsidian.md
 [2]: https://mozilla.github.io/nunjucks
 [3]: https://github.com/pjeby/hot-reload
-[4]: https://read.amazon.com/notebook
+[4]: https://read.amazon.co.jp/notebook

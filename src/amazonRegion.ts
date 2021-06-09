@@ -6,9 +6,9 @@ import { settingsStore } from '~/store';
 export const AmazonRegions: Record<AmazonAccountRegion, AmazonAccount> = {
   global: {
     name: 'Global',
-    hostname: 'amazon.com',
-    kindleReaderUrl: 'https://read.amazon.com',
-    notebookUrl: 'https://read.amazon.com/notebook',
+    hostname: 'amazon.co.jp',
+    kindleReaderUrl: 'https://read.amazon.co.jp',
+    notebookUrl: 'https://read.amazon.co.jp/notebook',
   },
   japan: {
     name: 'Japan',
